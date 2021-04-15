@@ -17,7 +17,7 @@ if [[ $FILE = "" ]]; then
 else
 	#兼容arm架构M1芯片的软件（/opt/homebrew/bin/sz）
 	#/usr/local/bin/sz "$FILE" --escape --binary --bufsize 4096
-	sz "$FILE" --escape --binary --bufsize 4096
+	/opt/homebrew/bin/sz "$FILE" --escape --binary --bufsize 4096
 	sleep 1
 	echo
 	echo \# Received $FILE

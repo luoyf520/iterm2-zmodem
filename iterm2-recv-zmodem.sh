@@ -19,7 +19,7 @@ else
 	cd "$FILE"
 	#兼容arm架构M1芯片的软件（/opt/homebrew/bin/rz）
 	#/usr/local/bin/rz -E -e -b --bufsize 4096
-	rz -E -e -b --bufsize 4096
+	/opt/homebrew/bin/rz -E -e -b --bufsize 4096
 	sleep 1
 	echo
 	echo
